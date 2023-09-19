@@ -1,0 +1,128 @@
+@media screen and (max-width:500px){
+    .logo{
+        padding: 10px 10px;
+    }
+
+    .navbar_buttons{
+        display:none;
+    }
+
+    .hamburger_menu{
+        display: block;
+    }
+
+    .responsive_navbar ul{
+        list-style: none;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .responsive_navbar ul li{
+        padding: 20px;
+        border-bottom: 1px solid #007FC9;
+    }
+
+    .responsive_navbar ul li a{
+        font-size: 20px;
+        color: #007FC9;
+    }
+
+    
+    #banner h1{
+        font-size: 50px;
+    }
+
+    #banner h3{
+        display: none;
+    }
+    
+    .about{
+        display: block;
+        margin: 0px 20px;
+    }
+
+    .about_heading{
+        font-size: 30px;
+    }
+    .about_images{
+        margin: auto;
+        width: 100%;
+    }
+
+    .about_images .flip-card{
+        width: 350px;
+    }
+
+    .about_images .flip-card img{
+        width: 350px;
+    }
+
+    .about_images .flip-card-back{
+        width: 350px;
+    }
+
+    .job_seeker_info{
+        columns: 1;
+    }
+
+    .job_seeker_info_block img{
+        width: 20vw;
+    }
+
+    .footer{
+        columns: 1;
+        padding: 0px 0px;
+        height: auto;
+    }
+
+    .flip-card-holder{
+        grid-template-columns: auto;
+    }
+
+    .flip-card-holder .flip-card {
+        width: 350px;
+        height: 250px;
+        margin: 30px 40px;
+        justify-content: center;
+      }
+      
+      .flip-card-holder img{
+        width: 300px;
+      }
+
+      .flip-card-holder .flip-card h4{
+        text-align: center;
+        font-size: 16px;
+        color: var(--primarycolour);
+      }
+
+      .clients_heading{
+        font-size: 35px;
+      }
+
+      .clients img{
+        width: 120px;
+      }
+
+      .contact{
+        display: block;
+        margin: 20px;
+      }
+
+      .contact div{
+        margin: 20px 10px;
+      }
+      
+      .address iframe{
+        width: 80vw;
+        height: 300px;
+        margin: 20px 0px;
+      }
+
+
+      .lookingtohire{
+        margin: 50px 30px 80px 30px;
+        font-size: 20px;
+      }
+
+}
